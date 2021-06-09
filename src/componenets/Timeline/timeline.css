@@ -1,0 +1,43 @@
+.timeline {
+    padding: 0 !important;
+}
+
+/* Header  */
+
+/* header title */
+.timeline .timeline_header {
+    padding-top: 7px ;
+}
+.timeline .timeline_firstItem {
+    min-height: 80px !important;
+}
+.timeline .MuitimelineItem-root {
+    min-height: 0px ;
+}
+.timeline .MuiTimelineItem-missingOppositeContent::before {
+ display: none;
+}
+.timeline .timeline_dot_header {
+    color: black !important;
+    background-color: var(--main-color) !important;
+    font-size: small !important;
+    padding: 10px !important;
+}
+
+/* Remainig Item */
+ .timeline .timeline_dot {
+    color: black !important;
+    border-color: var(--main-color) !important;
+    padding: 2px !important;
+ }
+.timeline .MuiTimelineConnector-root {
+    background-color: #eee !important;
+}
+.timeline .timeline_dot_header > .MuiSvgIcon-root {
+    font-size: 20px ;
+    color: black ;
+}
+.timeline .separator_padding {
+    padding-left: 18px !important ;
+
+}
