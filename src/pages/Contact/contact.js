@@ -1,4 +1,4 @@
-import { Grid, Icon, Paper, TextField, Typography } from '@material-ui/core'
+import { Grid, TextField, Typography } from '@material-ui/core'
 import React from 'react'
 import resumeData from '../../utils/resumeData'
 import CustomButton from '../../componenets/Buttons/button'

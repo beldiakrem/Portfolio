@@ -1,4 +1,4 @@
-import { Grid, Icon, Paper, TextField, Typography } from '@material-ui/core'
+import { Grid, Typography } from '@material-ui/core'
 import React from 'react'
 import resumeData from '../../utils/resumeData'
 import CustomTimeline, { CustomTimelineSeparator } from '../../componenets/Timeline/timeline'
@@ -6,11 +6,11 @@ import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
-import CustomButton from '../../componenets/Buttons/button'
+
 
 
 import './resume.css'
-import TimelineDot from '@material-ui/lab/TimelineDot';
+
 
 const resume = () => {
     return (

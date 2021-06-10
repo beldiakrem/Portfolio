@@ -2,7 +2,7 @@ import React from "react";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import { Language, WebOutlined, YouTube } from "@material-ui/icons";
+import { Language } from "@material-ui/icons";
 import CodeIcon from '@material-ui/icons/Code';
 import WebIcon from '@material-ui/icons/Web';
 import PhotoIcon from '@material-ui/icons/Photo';
@@ -29,7 +29,7 @@ import Portfolio from '../assests/images/portfolio.png'
 
 
 
-export default {
+export default  {
     name:'Akrem BELDI',
     title:'Développeur Full-Stack / Intégrateur Wordpress',
     dateNaissance :'15 Mars 1993',

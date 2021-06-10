@@ -4,7 +4,7 @@ import resumeData from '../../utils/resumeData';
 
 
 import './portfolio.css';
-import { GridOff } from '@material-ui/icons';
+
 
 
 
@@ -30,14 +30,14 @@ const Portfolio = () => {
                     <Tab
                         label='All'
                         value='All'
-                        className={tabValue == 'All' ? 'customTabs_item active' : 'customTabs_item'}
+                        className={tabValue === 'All' ? 'customTabs_item active' : 'customTabs_item'}
                     />
 
                     {[...new Set(resumeData.projects.map(project => project.tag))].map((tag) =>
                         <Tab
                             label={tag}
                             value={tag}
-                            className={tabValue == tag ? 'customTabs_item active' : 'customTabs_item'}
+                            className={tabValue === tag ? 'customTabs_item active' : 'customTabs_item'}
                         />
 
                     )}
@@ -51,7 +51,7 @@ const Portfolio = () => {
                 <Grid container spacing={3} >
                     {resumeData.projects.map(project => (
                         <>
-                            {tabValue == project.tag || tabValue == 'All' ? (
+                            {tabValue === project.tag || tabValue === 'All' ? (
                                 <Grid item xs={12} sm={6} md={4}>
                                     <Grow in timeout={1000} >
                                         <Card className="customCard" onClick={() => setprojectDialog(project)}>
@@ -86,7 +86,7 @@ const Portfolio = () => {
                 </DialogContent>
                 <DialogActions className='projectDialog_actions'>
                     {projectDialog?.links?.map((link) => (
-                        <a href={link.link} target='_blank'  className='projectDialog_icon'>{link.icon}</a>
+                        <a href={link.link} target='_blank' rel="noopener noreferrer"  className='projectDialog_icon'>{link.icon}</a>
                     ))}
                 </DialogActions>
             </Dialog>
