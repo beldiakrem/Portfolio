@@ -19,7 +19,7 @@ const resume = () => {
             <Grid container className="section pb_45">
                 <Grid item className="section_title mb_30" >
                     <span></span>
-                    <h6 className="section_title_text"> About Me </h6>
+                    <h6 className="section_title_text"> À Propos </h6>
                 </Grid>
                 <Grid xs={12}>
                     <Typography variant='body2' className="aboutme_text" >
@@ -33,7 +33,7 @@ const resume = () => {
             <Grid container className="section pb_45">
                 <Grid item className="section_title mb_30" >
                     <span></span>
-                    <h6 className="section_title_text"> Resume </h6>
+                    <h6 className="section_title_text"> Expériences & Diplomes </h6>
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container className="resume_timeline">
@@ -62,7 +62,7 @@ const resume = () => {
 
                         {/* Education */}
                         <Grid item sm={12} md={6}>
-                            <CustomTimeline title="Formation"
+                            <CustomTimeline title="Diplomes"
                                 icon={<SchoolIcon />} >
                                 {resumeData.educations.map(education => (
                                     <TimelineItem>
@@ -156,7 +156,7 @@ const resume = () => {
                                     <TextField fullWidth name='message' label="Message" multiline rows={4} />
                                 </Grid>
                                 <Grid item xs={12} >
-                                    <CustomButton text='Submit' />
+                                    <CustomButton text='Envoyer' />
                                 </Grid>
                             </Grid>
                         </Grid>
