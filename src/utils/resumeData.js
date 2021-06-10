@@ -29,7 +29,7 @@ import Portfolio from '../assests/images/portfolio.png'
 
 
 
-export default  {
+export default {
     name:'Akrem BELDI',
     title:'Développeur Full-Stack / Intégrateur Wordpress',
     dateNaissance :'15 Mars 1993',

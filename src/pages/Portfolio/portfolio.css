@@ -13,6 +13,12 @@
  outline-width: 0px !important;
 }
 
+@media only screen and (max-width: 489px) {
+    .customTabs .MuiTabs-flexContainer {
+        display: grid;
+        object-position: center center;
+    }
+  }
 
 /* Cards */
 .customCard {
