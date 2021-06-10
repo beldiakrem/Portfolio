@@ -5,6 +5,8 @@ import Header from './componenets/Header/header'
 import Portfolio from './pages/Portfolio/portfolio'
 import Resume from './pages/Resume/resume'
 import Footer from './componenets/Footer/footer'
+import Services from './pages/Services/services'
+import Contact from './pages/Contact/contact'
 
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -30,6 +32,12 @@ function App() {
               <Switch>
               <Route path='/portfolio'>
                 <Portfolio />
+              </Route>
+              <Route path='/services' >
+                <Services />
+              </Route>
+              <Route path='/contact' >
+                <Contact />
               </Route>
               <Route path='/' >
                 <Resume />

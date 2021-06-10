@@ -52,4 +52,13 @@ margin-bottom: 12px;
  /* display: flex !important; */
  justify-content: center;
  margin-top: 10px ;
+
+}
+.profile .link_btn {
+    text-decoration: none ;
+}
+
+
+.profile .MuiTimelineItem-root {
+    min-height: 0px !important;
 }

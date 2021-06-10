@@ -21,7 +21,7 @@
  }
 
  /* Services */
- .service {
+ /* .service {
      height: 100%;
      text-align: center;
  }
@@ -42,7 +42,7 @@
     margin-left: 0 !important;
     font-weight: 300 !important;
     color: black !important;
-}
+} */
 
 /* Skill */
 .skill {
@@ -71,7 +71,7 @@ margin-right: 5px !important;
 }
 
 /* Contact */
-.contactinfo_item {
+/* .contactinfo_item {
  font-size: 14px !important;
  color: #787878;
  line-height: 34px !important;
@@ -87,4 +87,4 @@ margin-right: 5px !important;
  font-size: 16px !important;
  margin-right: 10px ;
  color: black;
-}
+} */

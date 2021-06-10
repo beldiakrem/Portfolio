@@ -7,6 +7,8 @@ import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined'
 import CustomButton from '../Buttons/button'
 import GetAppIcon from '@material-ui/icons/GetApp';
 import Typed from "react-typed";
+import DownloadLink from "react-download-link";
+import CvAkrem from "../../assests/cvakrem.pdf"
 
 import Akrem from '../../assests/images/akrem.jpg'
 
@@ -64,7 +66,7 @@ const profile = () => {
         <div className="profile_information" >
            < CustomTimeline icon={<PersonOutlineOutlinedIcon />} >
              <CustomTimelineItem title='Nom & Prénom' text={resumeData.name} />
-             <CustomTimelineItem title='Titre' text={resumeData.title} />
+             {/* <CustomTimelineItem title='Titre' text={resumeData.title} /> */}
              <CustomTimelineItem title='Date de Naissance' text={resumeData.dateNaissance} />
              <CustomTimelineItem title='Email' text={resumeData.email} />
              <CustomTimelineItem title='Adress' text={resumeData.adress} />
@@ -75,9 +77,17 @@ const profile = () => {
            </CustomTimeline>
             <br />
             <div className="button_container" style={{display:"flex"}}>
-            <CustomButton text={'Télécharger CV'} icon={<GetAppIcon />} />
+            <a href={CvAkrem} target='_blank' className='link_btn'>
+            <CustomButton 
+            text={'Télécharger CV'} 
+            icon={<GetAppIcon />}
+             >
+               
+               </CustomButton>
+            </a>
+               
             </div>
-           
+         
         </div>
     </div>
     )

@@ -31,12 +31,28 @@ const Header = (props) => {
                 À Propos
              </Nav.Link>
 
+             {/* Services Link */}
+             <Nav.Link
+                as={NavLink}
+                to="/services"
+                className={pathName == "/services" ? "header_link_active" : "header_link"} >
+                Mes Services
+             </Nav.Link>
+
               {/* Portfolio Link */}
               <Nav.Link
                 as={NavLink}
                 to="/portfolio"
                 className={pathName == "/portfolio" ? "header_link_active" : "header_link"} >
                 Portfolio
+             </Nav.Link>
+             
+              {/* Contact Link */}
+              <Nav.Link
+                as={NavLink}
+                to="/contact"
+                className={pathName == "/contact" ? "header_link_active" : "header_link"} >
+               Contact
              </Nav.Link>
 
            </Nav>
@@ -46,7 +62,7 @@ const Header = (props) => {
                    {resumeData.social[key].icon}
                    </a>
                )) }
-               <CustomButton text={'Hire Me'} icon={<Telegram />} />
+               <CustomButton text={'Contactez Moi'} icon={<Telegram />} />
            </div>
        </Navbar.Collapse>
     </Navbar>

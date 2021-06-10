@@ -87,7 +87,7 @@ const resume = () => {
             </Grid>
 
             {/* Services */}
-            <Grid container className="section pb_45">
+            {/* <Grid container className="section pb_45">
                 <Grid item className="section_title mb_30" >
                     <span></span>
                     <h6 className="section_title_text"> Mes Services </h6>
@@ -109,10 +109,10 @@ const resume = () => {
                     </Grid>
 
                 </Grid>
-            </Grid>
+            </Grid> */}
 
             {/* Skills */}
-            <Grid container className="section graybg pb_45 p_50 ">
+            {/* <Grid container className="section graybg pb_45 p_50 ">
                 <Grid item xs={12}>
                     <Grid container justify='space-between' spacing={3}>
                         {resumeData.skills.map((skill) => (
@@ -133,12 +133,12 @@ const resume = () => {
                     </Grid>
                 </Grid>
 
-            </Grid>
+            </Grid> */}
 
             {/* Contact */}
-            <Grid container className="section pt_45" spacing={6} >
+            {/* <Grid container className="section pt_45" spacing={6} > */}
                 {/* contact fomr */}
-                <Grid item xs={12} lg={7} >
+                {/* <Grid item xs={12} lg={7} >
                     <Grid container>
                         <Grid item className="section_title mb_30 " >
                             <span></span>
@@ -161,10 +161,10 @@ const resume = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-                </Grid>
+                </Grid> */}
 
                 {/* contact information */}
-                <Grid item xs={12} lg={5} >
+                {/* <Grid item xs={12} lg={5} >
                     <Grid container>
                         <Grid item className="section_title mb_30" >
                             <span></span>
@@ -205,7 +205,7 @@ const resume = () => {
                 </Grid>
 
 
-            </Grid>
+            </Grid> */}
 
         </>
     )

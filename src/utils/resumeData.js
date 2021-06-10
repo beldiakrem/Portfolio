@@ -25,6 +25,7 @@ import AffMobDev from '../assests/images/affichemobiledev.jpg'
 import LogoPoly from '../assests/images/logopoly.png'
 import LogoCoquitta from '../assests/images/logocoquitta.jpg'
 import LogoZayna from '../assests/images/logozayna.jpg'
+import Portfolio from '../assests/images/portfolio.png'
 
 
 
@@ -208,7 +209,7 @@ projects :[
 
     {
       tag:'Applications Web',
-      image:'',
+      image:Portfolio,
       title:'Portfolio',
       caption:'Mon Portfolio',
       description:'Technologie utilisées: ReactJS, Material-ui, Bootstrap',
