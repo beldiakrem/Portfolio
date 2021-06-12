@@ -7,12 +7,25 @@
    .contactinfo_item > span {
     color: black;
     font-weight: 500;
+    font-size: 17px;
    }
    .contactinfo_socialcontainer {
     margin-top: 25px;
    }
    .contactinfo_social > a > .MuiSvgIcon-root {
-    font-size: 16px !important;
+    font-size: 25px !important;
     margin-right: 10px ;
     color: black;
+   }
+   .contactinfo_social > a > .MuiSvgIcon-root:hover {
+    font-size: 25px !important;
+    margin-right: 10px ;
+    color: var(--main-color);
+   }
+
+   .MuiInput-underline:after {
+    border-bottom: 2px solid var(--main-color) !important;
+   }
+   .MuiFormLabel-root.Mui-focused{
+       color: var(--main-color) !important;
    }
